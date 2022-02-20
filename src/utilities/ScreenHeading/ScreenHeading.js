@@ -14,9 +14,9 @@ export default function ScreenHeading(props) {
       ) : (
         <div></div>
       )}
-      <div className='heading-separator'>
-        <div className='separator-line'></div>
-        <div className='separator-blob'>
+      <div className='heading-seperator'>
+        <div className='seperator-line'></div>
+        <div className='seperator-blob'>
           <div></div>
         </div>
       </div>
