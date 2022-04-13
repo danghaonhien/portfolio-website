@@ -1,7 +1,7 @@
 import React from "react";
-import "./Footer.css";
+import "./ScrollFooter.css";
 import ScrollService from "../../utilities/ScrollService";
-export default function Footer() {
+export default function ScrollFooter() {
   return (
     <div className='scroll-container'>
       <button

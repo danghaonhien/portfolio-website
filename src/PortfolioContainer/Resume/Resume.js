@@ -47,21 +47,32 @@ const Resume = (props) => {
     { label: "Education", logoSrc: "education.svg" },
     { label: "Work History", logoSrc: "work-history.svg" },
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
+    { label: "Software Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Interests", logoSrc: "interests.svg" },
   ];
 
   //here we have
   const programmingSkillsDetails = [
-    { skill: "JavaScript", ratingPercentage: 85 },
-    { skill: "React JS", ratingPercentage: 85 },
-    { skill: "React Native", ratingPercentage: 85 },
-    { skill: "Express JS", ratingPercentage: 89 },
-    { skill: "Node JS", ratingPercentage: 89 },
+    { skill: "HTML", ratingPercentage: 90 },
+    { skill: "CSS", ratingPercentage: 90 },
+    { skill: "React JS", ratingPercentage: 90 },
+    { skill: "React Native", ratingPercentage: 90 },
+    { skill: "Express JS", ratingPercentage: 85 },
+    { skill: "Node JS", ratingPercentage: 85 },
+    { skill: "JavaScript", ratingPercentage: 80 },
     { skill: "Mongo Db", ratingPercentage: 70 },
-    { skill: "Core Java", ratingPercentage: 80 },
-    { skill: "HTML", ratingPercentage: 80 },
-    { skill: "CSS", ratingPercentage: 80 },
+    { skill: "Heroku", ratingPercentage: 70 },
+  ];
+  const softwareSkillsDetails = [
+    { skill: "Figma", ratingPercentage: 90 },
+    { skill: "VSCode", ratingPercentage: 90 },
+    { skill: "Adobe Photoshop", ratingPercentage: 90 },
+    { skill: "Adobe Illustrator", ratingPercentage: 90 },
+    { skill: "Adobe XD", ratingPercentage: 85 },
+    { skill: "Adobe Indesign", ratingPercentage: 80 },
+    { skill: "Adobe Premiere Pro", ratingPercentage: 80 },
+    { skill: "Adobe After Effect", ratingPercentage: 80 },
   ];
 
   const projectsDetails = [
@@ -93,23 +104,23 @@ const Resume = (props) => {
   const resumeDetails = [
     <div className='resume-screen-container' key='education'>
       <ResumeHeading
-        heading={"University of Legon Accra, Ghana"}
-        subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
-        fromDate={"2014"}
-        toDate={"2018"}
+        heading={"Academy Of Art University, San Francisco"}
+        subHeading={"MASTER OF ART - UI/UX DESIGN"}
+        fromDate={"2021"}
+        toDate={"2022"}
       />
 
       <ResumeHeading
-        heading={"National Youth Service Corps"}
-        subHeading={"Ministry Of Science And Technogy. Uyo Akwa Ibom State"}
+        heading={"UC Berkeley , Berkeley"}
+        subHeading={"FULLSTACK DEVELOPER BOOTCAMP"}
         fromDate={"2019"}
         toDate={"2020"}
       />
       <ResumeHeading
-        heading={"High School "}
-        subHeading={"Command Secondary School Mbiri"}
-        fromDate={"2007"}
-        toDate={"2012"}
+        heading={"Academy Of Art University, San Francisco"}
+        subHeading={"BACHELOR OF ARCHITECTURE"}
+        fromDate={"2012"}
+        toDate={"2018"}
       />
     </div>,
 
@@ -117,31 +128,26 @@ const Resume = (props) => {
     <div className='resume-screen-container' key='work-experience'>
       <div className='experience-container'>
         <ResumeHeading
-          heading={"Ehizeex Technoloy"}
+          heading={"MyCodi Inc"}
           subHeading={"FULL STACK DEVELOPER INTERN"}
-          fromDate={"2021"}
-          toDate={"Present"}
+          fromDate={"2020"}
+          toDate={"2021"}
         />
         <div className='experience-description'>
           <span className='resume-description-text'>
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
-          </span>
-        </div>
-        <div className='experience-description'>
-          <span className='resume-description-text'>
-            - Developed an ecommerce website for client with the dashboard for
-            managing the products, managing reviews, users, payment etc. .
+            Assisted in building beautiful user interfaces for my-codi.com from
+            Ideate phase to Launch.
           </span>
           <br />
           <span className='resume-description-text'>
-            - Integrated the web app with backend services to create new user
-            onboarding application with dynamic form content.{" "}
+            Assisted in building a Survey feature (Design Phase) for IOS/Android
+            using Ignite Bowser boiler plate for React Native
           </span>
           <br />
           <span className='resume-description-text'>
-            - I stretch my mental capacity to develope UI as per the given
-            designs.
+            Demonstrated outstanding communication, organization, and project
+            management talents while leveraging a keen eye for design and
+            achieving technical proficiency across a variety of design programs.
           </span>
           <br />
         </div>
@@ -154,6 +160,24 @@ const Resume = (props) => {
       key='programming-skills'
     >
       {programmingSkillsDetails.map((skill, index) => (
+        <div className='skill-parent' key={index}>
+          <div className='heading-bullet'></div>
+          <span>{skill.skill}</span>
+          <div className='skill-percentage'>
+            <div
+              style={{ width: skill.ratingPercentage + "%" }}
+              className='active-percentage-bar'
+            ></div>
+          </div>
+        </div>
+      ))}
+    </div>,
+    /* SOFTWARE SKILLS */
+    <div
+      className='resume-screen-container software-skills-container'
+      key='software-skills'
+    >
+      {softwareSkillsDetails.map((skill, index) => (
         <div className='skill-parent' key={index}>
           <div className='heading-bullet'></div>
           <span>{skill.skill}</span>

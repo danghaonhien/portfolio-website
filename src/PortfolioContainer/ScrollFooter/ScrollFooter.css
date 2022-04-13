@@ -9,28 +9,28 @@
   z-index: 100;
   cursor: pointer;
 }
-@media only screen and (min-width: 475px) {
+@media only screen and (max-width: 475px) {
   .scroll-container {
     margin-bottom: 10px;
   }
 }
 .btn-scroll {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   color: aliceblue;
   font-size: 24px;
   background-color: tomato;
   border-radius: 10px;
   border: none;
 }
-.btn-scroll i:hover {
-  transform: rotate(360deg);
-  color: aliceblue;
-}
 
 .btn-scroll i {
   -webkit-animation: mover 0.5s infinite alternate;
   animation: mover 0.5s infinite alternate;
+}
+.btn-scroll i:hover {
+  transform: rotate(360deg);
+  color: aliceblue;
 }
 @keyframes mover {
   100% {

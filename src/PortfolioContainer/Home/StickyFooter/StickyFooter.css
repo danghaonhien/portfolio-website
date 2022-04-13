@@ -1,0 +1,13 @@
+.footer {
+  background-color: green;
+  border-top: 2px solid red;
+
+  width: 100%;
+
+  color: white;
+  font-size: 25px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}

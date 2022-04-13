@@ -164,6 +164,13 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.software-skills-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 .skill-percentage {
   position: relative;
