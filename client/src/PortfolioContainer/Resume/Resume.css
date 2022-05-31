@@ -135,6 +135,7 @@
   font-family: "Poppins SemiBold";
   color: var(--black);
   margin: 10px 0 0 0;
+  text-align: justify;
 }
 
 .resume-heading-description {

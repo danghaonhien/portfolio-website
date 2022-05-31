@@ -78,7 +78,7 @@ const Resume = (props) => {
   const projectsDetails = [
     {
       title: "Personal Portfolio Website",
-      duration: { fromDate: "2020", toDate: "2021" },
+      duration: { fromDate: "2021", toDate: "2022" },
       description:
         "A Personal Portfolio website to showcase all my details and projects at one place.",
       subHeading: "Technologies Used: React JS, Bootsrap",
@@ -105,7 +105,7 @@ const Resume = (props) => {
     <div className='resume-screen-container' key='education'>
       <ResumeHeading
         heading={"Academy Of Art University, San Francisco"}
-        subHeading={"MASTER OF ART - UI/UX DESIGN"}
+        subHeading={"MASTER OF ART - UX/UI DESIGN"}
         fromDate={"2021"}
         toDate={"2022"}
       />
@@ -208,16 +208,16 @@ const Resume = (props) => {
     /* Interests */
     <div className='resume-screen-container' key='interests'>
       <ResumeHeading
-        heading='Teaching'
-        description='Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing.'
+        heading='Photography / Videography'
+        description='I have a deep love with photography and videography. They are my meditation, and a true passion that has led me to Design.'
       />
       <ResumeHeading
-        heading='Music'
-        description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
+        heading='Hiking / Camping'
+        description='I am a 100% outdoor person who would rather live in a tent than a hotel room. I love being embraced by nature because it makes me feel grateful to be alive.'
       />
       <ResumeHeading
-        heading='Competitive Gaming'
-        description='I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most.'
+        heading='Sports'
+        description='I used to be a competitive table tennis and soccer player in college. In fact, I am still playing table tennis on weekends. Playing sports makes me feel the importance of team-work and competitiveness.'
       />
     </div>,
   ];

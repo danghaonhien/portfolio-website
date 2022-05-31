@@ -37,7 +37,7 @@ export default function Profile() {
                     1500,
                     "• Full-Stack Dev •",
                     1500,
-                    "• Architect •",
+                    "• Architecture Designer •",
                     1500,
                   ]}
                 />
