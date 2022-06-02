@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+
 import "./Resume.css";
 
 const Resume = (props) => {
@@ -244,7 +245,7 @@ const Resume = (props) => {
       >
         <img
           className='bullet-logo'
-          src={require(`../../assets/Resume/${bullet.logoSrc}`).default}
+          src={require(`../../assets/Resume/${bullet.logoSrc}`)}
           alt='B'
         />
         <span className='bullet-label'>{bullet.label}</span>
