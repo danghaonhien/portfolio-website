@@ -7,14 +7,18 @@
 
 .central-form {
   max-width: 1100px;
-  padding: 10px;
+  padding: 50px;
   display: flex;
-  box-shadow: 0 0px 20px -2px #1f2235;
-  border-radius: 12px;
   margin: 0 auto;
   flex-direction: column;
   justify-content: center;
-  background-color: #1f2235;
+  box-shadow:     0 1px 1px hsl(0deg 0% 0% / 0.075),
+  0 2px 2px hsl(0deg 0% 0% / 0.075),
+  0 4px 4px hsl(0deg 0% 0% / 0.075),
+  0 8px 8px hsl(0deg 0% 0% / 0.075),
+  0 16px 16px hsl(0deg 0% 0% / 0.075);
+  background-color: var(--dark-blue);
+/* margin-bottom: 55px; */
 }
 
 .central-form h2 {
@@ -38,8 +42,8 @@
   letter-spacing: 0.3rem;
   font-weight: 400;
   color: white;
-  font-size: 18px;
-  opacity: 0.5;
+  font-size: 25px;
+  opacity: 0.75;
 }
 
 .back-form .img-back img {
@@ -51,42 +55,44 @@
   width: auto;
   box-shadow: 0 0 2px 1px white;
   display: flex;
-  color: #111;
+  color: white;
   padding: 15px;
   justify-content: center;
   flex-direction: column;
   margin-top: -52px;
   opacity: 0.9;
-  background-color: white;
-  box-shadow: 0 0px 20px -2px #1f2235;
+  background-color: var(--dark-blue);
+  box-shadow: 0 0px 20px -2px var(--dark-blue);
   border-radius: 12px;
+  border: 3px var(--dark-orange) solid;
 }
 
 form p {
   text-align: center;
   margin-bottom: 10px;
-  color: #ff5823;
+  color: var(--dark-orange);
   letter-spacing: 0.1rem;
   font-family: "Poppins Bold";
 }
 
 form label {
   margin-bottom: 5px;
-  color: #111;
+  color: var(--white);
   letter-spacing: 0.2rem;
 }
 
 form input,
 textarea {
   width: 100%;
-  border: 2px solid rgba(0, 0, 0, 0);
+  border: 2px solid var(--white);
   outline: none;
-  background-color: rgba(230, 230, 230, 0.6);
+  background-color: var(--dark-blue);
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
   margin-bottom: 22px;
   transition: 0.3s;
   border-radius: 10px;
+
 }
 
 textarea:focus {
@@ -104,10 +110,10 @@ form button {
   outline: none;
   width: 900px;
   color: rgb(230, 227, 227);
-  border: 2px solid #ff5823;
+  border: 2px solid var(--white);
   font-size: 12px;
   border-radius: 19px;
-  background-color: #1f2235;
+  background-color: var(--dark-blue);
   font-size: 18px;
   width: 160px;
   align-items: center;
@@ -115,9 +121,9 @@ form button {
 }
 
 form button:hover {
-  background-color: #1f2235;
+  background-color: var(--dark-blue);
   transition: all ease 1s;
-  border: 2px solid #1f2235;
+  border: 2px solid var(--dark-orange);
 }
 
 button .load {
@@ -130,7 +136,8 @@ button .load img {
 }
 .col i {
   padding: 7px;
-  color: #fff;
+  color: var(--white);
+  margin-bottom: 30px;
 }
 .col i:hover {
   transform: scale(1.5);

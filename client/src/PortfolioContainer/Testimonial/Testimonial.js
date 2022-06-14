@@ -47,152 +47,152 @@ export default function Testimonial(props) {
     <div>
       <ScreenHeading
         title={"Testimonial"}
-        subHeading={"What People Say About Me"}
+        subHeading={"What My Client Say About Me"}
       />
-      <section className='testimonial-section fade-in' id={props.id || ""}>
-        <div className='container'>
-          <div className='row'>
+      <section className="testimonial-section fade-in" id={props.id || ""}>
+        <div className="container">
+          <div className="row">
             <OwlCarousel
-              className='owl-carousel'
-              id='testimonial-carousel'
+              className="owl-carousel"
+              id="testimonial-carousel"
               {...options}
             >
-              <div className='col-lg-12'>
-                <div className='testi-item'>
-                  <div className='testi-comment'>
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
                     <p>
-                      <i className='fa fa-quote-left' />
+                      <i className="fa fa-quote-left" />
                       I patronized Ehizeex and when He delivered, I honestly
                       fell in love with the project He is a very honest guy and
                       he delivers ontime.
-                      <i className='fa fa-quote-right' />
+                      <i className="fa fa-quote-right" />
                     </p>
-                    <ul className='stars list-unstyled'>
+                    <ul className="stars list-unstyled">
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className='fa fa-star-half-alt' />
+                        <i className="fa fa-star-half-alt" />
                       </li>
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                     </ul>
                   </div>
-                  <div className='client-info'>
-                    <img src={lady} alt='no internet connection'></img>
+                  <div className="client-info">
+                    <img src={lady} alt="no internet connection"></img>
                     <h5>Daisy Dominic</h5>
                     <p>CEO InansGlobal</p>
                   </div>
                 </div>
               </div>
 
-              <div className='col-lg-12'>
-                <div className='testi-item'>
-                  <div className='testi-comment'>
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
                     <p>
-                      <i className='fa fa-quote-left' />
+                      <i className="fa fa-quote-left" />
                       It was nice hiring this guy for my e-commerce project.He
                       delivered even more than i can imagine. I recommend him
                       for you.
-                      <i className='fa fa-quote-right' />
+                      <i className="fa fa-quote-right" />
                     </p>
-                    <ul className='stars list-unstyled'>
+                    <ul className="stars list-unstyled">
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className='fa fa-star-half-alt' />
+                        <i className="fa fa-star-half-alt" />
                       </li>
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                     </ul>
                   </div>
-                  <div className='client-info'>
-                    <img src={mike} alt='no internet connection'></img>
+                  <div className="client-info">
+                    <img src={mike} alt="no internet connection"></img>
                     <h5>Mikel</h5>
                     <p>CEO MikeTech</p>
                   </div>
                 </div>
               </div>
-              <div className='col-lg-12'>
-                <div className='testi-item'>
-                  <div className='testi-comment'>
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
                     <p>
-                      <i className='fa fa-quote-left' />
+                      <i className="fa fa-quote-left" />
                       When he delivered my job, my head spinned, it was so nice
                       and he implemented every functionality i requested for.
                       Thank you.
-                      <i className='fa fa-quote-right' />
+                      <i className="fa fa-quote-right" />
                     </p>
-                    <ul className='stars list-unstyled'>
+                    <ul className="stars list-unstyled">
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className='fa fa-star-half-alt' />
+                        <i className="fa fa-star-half-alt" />
                       </li>
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                     </ul>
                   </div>
-                  <div className='client-info'>
-                    <img src={lady} alt='no internet connection'></img>
+                  <div className="client-info">
+                    <img src={lady} alt="no internet connection"></img>
                     <h5>Daisy Dominic</h5>
                     <p>CEO InansGlobal</p>
                   </div>
                 </div>
               </div>
-              <div className='col-lg-12'>
-                <div className='testi-item'>
-                  <div className='testi-comment'>
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
                     <p>
-                      <i className='fa fa-quote-left' />
+                      <i className="fa fa-quote-left" />
                       This guy is incredibly awesome, I hired him and when He
                       delivered, I honestly fell in love with the project. He is
                       indeed a great guy,
-                      <i className='fa fa-quote-right' />
+                      <i className="fa fa-quote-right" />
                     </p>
-                    <ul className='stars list-unstyled'>
+                    <ul className="stars list-unstyled">
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className='fa fa-star-half-alt' />
+                        <i className="fa fa-star-half-alt" />
                       </li>
                       <li>
-                        <i className='fa fa-star' />
+                        <i className="fa fa-star" />
                       </li>
                     </ul>
                   </div>
-                  <div className='client-info'>
-                    <img src={man} alt='no internet connection'></img>
+                  <div className="client-info">
+                    <img src={man} alt="no internet connection"></img>
                     <h5>John Smith</h5>
                     <p>Bnaker</p>
                   </div>
@@ -202,8 +202,8 @@ export default function Testimonial(props) {
           </div>
         </div>
       </section>
-      <div className='footer-image'>
-        <img src={shape} alt='Phot0 not responding' />
+      <div className="footer-image">
+        <img src={shape} alt="Phot0 not responding" />
       </div>
     </div>
   );

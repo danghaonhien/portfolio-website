@@ -15,7 +15,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+      "Full stack web and mobile developer with background knowledge of MERN stacks, a sharp technical acumen, passion for software development, and hands-on experience in UX/UI and Architectural Design, poised to leverage design and coding expertise in an entry-level Developer role.",
     highlights: {
       bullets: [
         "Full Stack web and mobile development",
@@ -25,7 +25,7 @@ export default function AboutMe(props) {
         "Building REST API",
         "Managing database",
       ],
-      heading: "Here are a Few Highlights:",
+      heading: "Why Always Me:",
     },
   };
   const renderHighlight = () => {
@@ -62,7 +62,7 @@ export default function AboutMe(props) {
                 onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
               >
                 {" "}
-                Hire Me{" "}
+                Let's Connect{" "}
               </button>
               <a href='NhienDang_Resume.pdf' download>
                 <button className='btn highlighted-btn'>Get Resume</button>

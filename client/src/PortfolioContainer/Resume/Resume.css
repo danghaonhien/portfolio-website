@@ -12,10 +12,16 @@
   height: 360px;
   width: 1000px;
   /* margin: 80px 0; */
+   border: 5px solid var(--dark-blue);
+   box-shadow:     0 1px 1px hsl(0deg 0% 0% / 0.075),
+   0 2px 2px hsl(0deg 0% 0% / 0.075),
+   0 4px 4px hsl(0deg 0% 0% / 0.075),
+   0 8px 8px hsl(0deg 0% 0% / 0.075),
+   0 16px 16px hsl(0deg 0% 0% / 0.075);
 }
 
 .resume-bullets {
-  box-shadow: 15px 0 9px -15px #1f2235;
+  box-shadow: 15px 0 9px -15px var(--dark-blue);
   height: 100%;
   width: 320px;
 }
@@ -58,7 +64,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  background-color: #1f2235;
+  background-color: var(--dark-blue);
   height: 40px;
   margin: 15px 0;
   padding: 0 8px;
@@ -97,6 +103,7 @@
   justify-content: space-evenly;
   height: 360px;
   width: 100%;
+  padding-right: 25px;
 }
 
 .resume-heading {
@@ -127,7 +134,7 @@
   width: 15px;
   top: 5px;
   border-radius: 50%;
-  background-color: #ff5823;
+  background-color: var(--dark-orange);
 }
 
 .resume-sub-heading {
@@ -141,11 +148,13 @@
 .resume-heading-description {
   font-size: 12px;
   text-align: justify;
+  flex-wrap: wrap;
 }
 
 .heading-date {
-  background-color: #ff5823;
+  background-color: var(--dark-orange);
   padding: 4px 12px;
+  /* margin-right: 10px; */
   font-size: 14px;
   border-radius: 14px;
   color: var(--white);
@@ -177,7 +186,7 @@
   position: relative;
   height: 15px;
   width: 70%;
-  background-color: #ff5823;
+  background-color: var(--dark-orange);
 }
 
 .skill-percentage .active-percentage-bar {
@@ -190,7 +199,7 @@
 .skill-parent span {
   font-family: "Poppins Bold";
   font-size: 16px;
-  color: #ff5823;
+  color: var(--dark-orange);
 }
 
 /* IPAD PRO RESPONSIVENESS */

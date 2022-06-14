@@ -37,7 +37,7 @@ export default function Profile() {
                     1500,
                     "• Full-Stack Dev •",
                     1500,
-                    "• Architecture Designer •",
+                    "• Architectural Designer •",
                     1500,
                   ]}
                 />
@@ -54,7 +54,7 @@ export default function Profile() {
               onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
             >
               {" "}
-              Hire Me{" "}
+              Let's Connect{" "}
             </button>
             <a href='NhienDang_Resume.pdf' download>
               <button className='btn highlighted-btn'>Get Resume</button>

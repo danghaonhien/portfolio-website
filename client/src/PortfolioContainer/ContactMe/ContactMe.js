@@ -68,7 +68,7 @@ export default function ContactMe(props) {
       <div className='central-form'>
         <div className='col'>
           <h2 className='title'>
-            <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
+            <Typical loop={Infinity} steps={["Let's Connect", 1000]} />
           </h2>{" "}
           <a href='https://linkedin.com/in/nhiendang0711'>
             <i class='fa fa-linkedin'></i>
@@ -98,8 +98,8 @@ export default function ContactMe(props) {
 
             <div className='send-btn'>
               <button type='submit'>
-                send
-                <i className='fa fa-paper-plane' />
+                Send
+          
                 {bool ? (
                   <b className='load'>
                     <img src={load1} alt='not responding' />
@@ -112,7 +112,7 @@ export default function ContactMe(props) {
           </form>
         </div>
       </div>
-      <ScrollFooter />
+      <ScrollFooter/>
     </div>
   );
 }
