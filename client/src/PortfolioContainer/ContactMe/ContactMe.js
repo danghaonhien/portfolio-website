@@ -7,7 +7,7 @@ import load1 from "../../../src/images/load2.gif";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import ScrollFooter from "../ScrollFooter/ScrollFooter";
+import Footer from "../Footer/Footer";
 import "./ContactMe.css";
 
 export default function ContactMe(props) {
@@ -112,7 +112,7 @@ export default function ContactMe(props) {
           </form>
         </div>
       </div>
-      <ScrollFooter/>
+      <Footer/>
     </div>
   );
 }
